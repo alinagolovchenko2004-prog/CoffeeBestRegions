@@ -2,6 +2,11 @@
 
 body {
     margin: 0;
+    background-image:
+            url('../images/img_3.png');
+
+    background-size: 300px;
+    background-repeat: repeat;
 }
 
 .text {
@@ -10,24 +15,95 @@ body {
 }
 
 .text img {
-    width: 100%;
+    width: 80%;
     height: 400px;
     object-fit: cover;
-    object-position: center center;
+    object-position: center;
     display: block;
+    margin: 30px auto 0;
+    border-radius: 25px;
 }
 
 .text h1 {
     position: absolute;
-    top: 45px;
+    top: 180px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: seagreen;
     font-family: 'Pinyon Script', cursive;
     font-size: 80px;
-    margin: 10px;
+    margin: 0;
 }
-
 .main {
     font-family: Verdana, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.brazil {
+    background-image:
+            linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+            url('../images/img_9.png');
+
+}
+
+.colombia {
+    background-image:
+    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+            url('../images/img_10.png');
+}
+
+.india {
+    background-image:
+    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+            url('../images/img_11.png');
+}
+
+.ethiopia {
+    background-image:
+    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+            url('../images/img_12.png');
+}
+
+.costarica {
+    background-image:
+    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+            url('../images/img_13.png');
+}
+
+.kenya {
+    background-image:
+    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+            url('../images/img_14.png');
+}
+
+
+.brazil, .colombia, .india, .ethiopia, .costarica, .kenya {
+    background-size: cover;
+    background-position: center;
+    color: #5b2c06;
+    font-weight: bold;
+    text-shadow: 4px 3px 3px  rosybrown;
+}
+td {
+    width: 50%;
+    padding: 25px;
+    border-radius: 20px;
+    vertical-align: top;
+}
+
+a {
+    color: #5b2c06;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
