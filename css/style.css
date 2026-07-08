@@ -34,76 +34,88 @@ body {
     font-size: 80px;
     margin: 0;
 }
-/*.main {*/
-/*    font-family: Verdana, sans-serif;*/
-/*}*/
+.main {
+    position: relative;
+    width: 80%;
+    margin: 30px auto;
+    color: #5b2c06;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 1000px;
+}
+    .right {
+        position: absolute;
+        text-align: left;
+        right: 0;
+        top: 0;
+        width: 48%;
 
-/*table {*/
-/*    border-collapse: collapse;*/
-/*    width: 80%;*/
-/*    margin: auto;*/
-/*    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);*/
-/*}*/
+    }
+    .left {
+    position: absolute;
+    left: 0;
+        top: 0;
+    text-align: left;
+        width: 48%;
 
+}
+.country {
+    position: relative;
+}
+.flag {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 55px;
+    height: 40px;
+}
 
-/*.brazil {*/
-/*    background-image:*/
-/*            linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),*/
-/*            url('../images/img_9.png');*/
+.left div,
+.right div {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(91, 44, 6, 0.25);
+    height: 300px;
+    position: relative;
+    transition: 0.3s;
+}
+.left h2,
+.right h2 {
+    margin-top: 0;
+    color: #5b2c06;
+    font-size: 28px;
+}
 
-/*}*/
+.left p,
+.right p {
+    font-size: 16px;
+    line-height: 1.5;
+}
 
-/*.colombia {*/
-/*    background-image:*/
-/*    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),*/
-/*            url('../images/img_10.png');*/
-/*}*/
+.left a,
+.right a {
+    display: inline-block;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
 
-/*.india {*/
-/*    background-image:*/
-/*    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),*/
-/*            url('../images/img_11.png');*/
-/*}*/
+    color: white;
+    background-color: #5b2c06;
+    padding: 8px 14px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-/*.ethiopia {*/
-/*    background-image:*/
-/*    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),*/
-/*            url('../images/img_12.png');*/
-/*}*/
+.left a:hover,
+.right a:hover {
+    background-color: seagreen;
+}
+.left div:hover,
+.right div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(91, 44, 6, 0.35);
+}
 
-/*.costarica {*/
-/*    background-image:*/
-/*    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),*/
-/*            url('../images/img_13.png');*/
-/*}*/
-
-/*.kenya {*/
-/*    background-image:*/
-/*    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),*/
-/*            url('../images/img_14.png');*/
-/*}*/
-
-
-/*.brazil, .colombia, .india, .ethiopia, .costarica, .kenya {*/
-/*    background-size: cover;*/
-/*    background-position: center;*/
-/*    color: #5b2c06;*/
-/*    font-weight: bold;*/
-/*    text-shadow: 4px 3px 3px  rosybrown;*/
-/*}*/
-/*td {*/
-/*    width: 50%;*/
-/*    padding: 25px;*/
-/*    border-radius: 20px;*/
-/*    vertical-align: top;*/
-/*}*/
-
-/*a {*/
-/*    color: #5b2c06;*/
-/*    font-weight: bold;*/
-/*    text-decoration: none;*/
-/*}*/
-
-/*a:hover {*/
-/*    text-decoration: underline;*/
-/*}*/
